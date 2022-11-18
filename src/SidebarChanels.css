@@ -1,0 +1,10 @@
+.sidebar-chanels {
+  background-color: #19171d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+  gap: 10px;
+  min-width: 15vw;
+}
