@@ -1,7 +1,23 @@
+.message-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .message {
   display: flex;
+  gap: 10px;
 }
 
 img {
-  height: 100px;
+  width: 80px;
+}
+
+.name-and-time {
+  display: flex;
+  gap: 20px;
+}
+
+.name-and-time h5 {
+  color: grey;
 }

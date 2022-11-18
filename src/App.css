@@ -5,8 +5,14 @@
 }
 
 .main-container {
-  width: 100vw;
+  min-width: 100vw;
   min-height: 100vh;
   display: flex;
   align-items: center;
+  background-color: #1a1d21;
+  gap: 20px;
+}
+
+.discussion {
+  min-width: 100vw;
 }

@@ -1,0 +1,9 @@
+#message-input {
+  min-width: 90px;
+  min-height: 40px;
+  margin-top: 20px;
+  background-color: #222529;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+}
