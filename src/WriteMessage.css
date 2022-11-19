@@ -1,7 +1,8 @@
 #message-input {
-  min-width: 90px;
-  min-height: 40px;
+  min-width: 80%;
+  min-height: 80px;
   margin-top: 20px;
+  margin-left: 20px;
   background-color: #222529;
   border: none;
   padding: 5px;
