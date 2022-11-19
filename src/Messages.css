@@ -1,5 +1,7 @@
 .messages {
   display: flex;
-  margin-top: 20px;
-  margin-left: 20px;
+  flex-direction: column-reverse;
+  height: 100%;
+  overflow-y: scroll;
+  gap: 20px;
 }

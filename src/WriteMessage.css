@@ -1,10 +1,10 @@
-#message-input {
-  min-width: 80%;
-  min-height: 80px;
-  margin-top: 20px;
-  margin-left: 20px;
+.write-message {
   background-color: #222529;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+#message-input {
   border: none;
-  padding: 5px;
-  border-radius: 4px;
+  background-color: transparent;
 }

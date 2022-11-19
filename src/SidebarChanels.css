@@ -1,20 +1,10 @@
 .sidebar-chanels {
   background-color: #19171d;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  height: 100vh;
+  overflow-y: scroll;
   padding-left: 30px;
   padding-top: 20px;
   gap: 10px;
-  min-width: 15vw;
-  max-height: 400px;
+  width: 300px;
   border-top: 1px solid rgb(43, 42, 47);
-}
-
-.sidebar {
-  min-height: 100vh;
-  background-color: #19171d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

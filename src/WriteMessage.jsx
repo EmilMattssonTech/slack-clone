@@ -3,7 +3,7 @@ import "./WriteMessage.css";
 
 export default function WriteMessage() {
   return (
-    <div>
+    <div className="write-message">
       <input type="text" id="message-input" placeholder="Message #person" />
     </div>
   );
