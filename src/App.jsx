@@ -1,7 +1,7 @@
 import "./App.css";
-import Sidebar from "./assets/Sidebar";
-import Messages from "./Messages";
-import WriteMessage from "./WriteMessage";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Messages from "./components/Messages/Messages";
+import WriteMessage from "./components/WriteMessage/WriteMessage";
 
 function App() {
   return (

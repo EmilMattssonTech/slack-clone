@@ -1,5 +1,5 @@
 import React from "react";
-import SidebarChanels from "../SidebarChanels";
+import SidebarChanels from "./SidebarChanels";
 
 export default function Sidebar() {
   return (
