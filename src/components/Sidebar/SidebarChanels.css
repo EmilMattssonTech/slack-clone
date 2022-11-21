@@ -4,7 +4,16 @@
   overflow-y: scroll;
   padding-left: 30px;
   padding-top: 20px;
-  gap: 10px;
   width: 300px;
   border-top: 1px solid rgb(43, 42, 47);
+}
+
+.channel {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+Hash {
+  width: 200px;
 }
