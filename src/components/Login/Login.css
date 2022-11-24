@@ -1,0 +1,31 @@
+.login {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #1a1d21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.login h1 {
+  color: #d1d2d3;
+}
+
+.login button {
+  padding: 10px 50px;
+  font-size: 20px;
+  background-color: #1a1d21;
+  border: 1px solid #35373b;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.login button:hover {
+  background-color: #19171d;
+}
