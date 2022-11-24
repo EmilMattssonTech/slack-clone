@@ -12,7 +12,7 @@ export default function Login() {
           console.log("Logging in...");
         }}
       >
-        <Hash />
+        <Hash style={{ width: "20px" }} />
         login
       </button>
     </div>
