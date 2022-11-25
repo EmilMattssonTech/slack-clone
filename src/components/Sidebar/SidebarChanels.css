@@ -2,14 +2,29 @@
   background-color: #19171d;
   height: 100vh;
   overflow-y: scroll;
-  padding-left: 30px;
   padding-top: 20px;
+
   width: 300px;
   border-top: 1px solid rgb(43, 42, 47);
 }
 
 .channel {
+  padding: 10px 30px;
+}
+
+.channel.active {
+  background-color: #1164a3;
+}
+
+.channel svg {
+  width: 15px;
+  height: 15px;
+}
+
+.channel a {
+  color: #d1d2d3b3;
   display: flex;
   align-items: center;
-  margin: 5px;
+  text-decoration: none;
+  gap: 5px;
 }

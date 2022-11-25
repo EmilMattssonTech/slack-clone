@@ -2,9 +2,11 @@
   background-color: #222529;
   padding: 20px;
   border-radius: 6px;
+  border: 1px solid #35373b;
 }
 
 #message-input {
   border: none;
   background-color: transparent;
+  width: 100%;
 }

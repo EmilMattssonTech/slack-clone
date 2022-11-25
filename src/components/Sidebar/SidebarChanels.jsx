@@ -1,22 +1,25 @@
 import React from "react";
 import "./SidebarChanels.css";
 import { Hash } from "react-feather";
+import { Link, Routes, Route } from "react-router-dom";
+import Channel from "./Channel/Channel";
+import { useParams } from "react-router-dom";
 
 export default function SidebarChanels() {
+  const { id } = useParams();
+  const channels = ["gibb", "random", "batch3"];
   return (
-    <div className="sidebar-chanels">
-      <h4 className="channel">
-        <Hash />
-        gibb
-      </h4>
-      <h4 className="channel">
-        <Hash />
-        random
-      </h4>
-      <h4 className="channel">
-        <Hash />
-        batch-3
-      </h4>
-    </div>
+    <ul className="sidebar-chanels">
+      {channels.map((channel) => {
+        return (
+          <li className={`channel ${id === channel ? "active" : ""}`}>
+            <Link to={`/main/${channel}`}>
+              <Hash />
+              {channel}
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
   );
 }
