@@ -15,3 +15,4 @@ export default function Message() {
     </div>
   );
 }
+//Hårdkodat message
